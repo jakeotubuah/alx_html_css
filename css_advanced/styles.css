@@ -133,5 +133,106 @@ main > section:first-of-type > div:nth-of-type(2) p {
   font-size: 14px;
   color: #D0D0D0;
 }
+main > section:nth-of-type(2) {
+  background: #C271FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 80px 120px;
+}
 
+main > section:nth-of-type(2) img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+main > section:nth-of-type(2) blockquote {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+main > section:nth-of-type(2) h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+main > section:nth-of-type(2) p {
+  font-size: 14px;
+}
+
+/* ============ MOST POPULAR TUTORIALS ============ */
+main > section:nth-of-type(3) {
+  background: #fff;
+  color: #071629;
+  text-align: center;
+  padding: 100px 80px;
+}
+
+main > section:nth-of-type(3) h2 {
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+main > section:nth-of-type(3) h2::first-letter {
+  color: #C271FF;
+}
+
+main > section:nth-of-type(3) > div {
+  display: inline-block;
+  background: #fff;
+  border-radius: 10px;
+  width: 240px;
+  margin: 0 20px 50px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: left;
+}
+
+main > section:nth-of-type(3) > div img:first-of-type {
+  width: 100%;
+  display: block;
+}
+
+main > section:nth-of-type(3) h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+main > section:nth-of-type(3) p {
+  font-size: 14px;
+  margin: 0 15px 10px;
+}
+
+main > section:nth-of-type(3) > div > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+main > section:nth-of-type(3) > div > div:nth-of-type(2) img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+main > section:nth-of-type(3) > div > div:nth-of-type(3) {
+  display: flex;
+  margin: 0 15px;
+  gap: 5px;
+  color: #C271FF;
+}
+
+main > section:nth-of-type(3) > div > p:last-of-type {
+  text-align: right;
+  margin: 10px 15px;
+  font-size: 12px;
+  color: #999;
+}
 
