@@ -319,3 +319,37 @@ main > section:nth-of-type(5) div > div > div:nth-of-type(2) {
   color: #555;
   margin-bottom: 30px;
 }
+
+footer {
+  background: #071629;
+  color: #fff;
+  padding: 40px 120px;
+}
+
+footer section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  width: 150px;
+}
+
+footer i {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer i:hover {
+  color: #C271FF;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #aaa;
+}
