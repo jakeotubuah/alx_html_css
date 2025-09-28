@@ -288,3 +288,34 @@ main > section:nth-of-type(4) button {
 main > section:nth-of-type(4) button:hover {
   background: #a155cc;
 }
+
+main > section:nth-of-type(5) {
+  background: #fff;
+  color: #071629;
+  padding: 100px 120px;
+}
+
+main > section:nth-of-type(5) h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+main > section:nth-of-type(5) > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+main > section:nth-of-type(5) h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+main > section:nth-of-type(5) p,
+main > section:nth-of-type(5) div > div > div:nth-of-type(2) {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 30px;
+}
