@@ -1,1 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #071629; /* dark blue background from prototype */
+}
+
+header {
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 30px 80px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav img {
+  width: 160px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #C271FF;
