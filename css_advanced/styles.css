@@ -47,4 +47,41 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #C271FF;
+  color: #C271FF;}
+
+  main > section:first-of-type {
+  background: url(../Object.png) center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 120px; /* to avoid header overlap */
+}
+
+main > section:first-of-type h1 {
+  font-size: 120px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main > section:first-of-type span {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0 8px;
+}
+
+main > section:first-of-type button {
+  margin-top: 35px;
+  background: #C271FF;
+  color: #fff;
+  border: none;
+  padding: 16px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
