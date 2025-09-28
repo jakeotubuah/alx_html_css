@@ -54,7 +54,7 @@ header nav ul li a:hover {
 
 /* ============ HERO SECTION ============ */
 main > section:first-of-type {
-  background: url(../Object.png) center/cover no-repeat;
+  background: url(Object.png) center/cover no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
